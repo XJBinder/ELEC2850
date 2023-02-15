@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\binderj\Desktop\C Code\phoneBill\phoneBill\main.c(16,57): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\binderj\Desktop\C Code\phoneBill\phoneBill\main.c(17,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  phoneBill.vcxproj -> C:\Users\binderj\Desktop\C Code\phoneBill\x64\Debug\phoneBill.exe

@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\binderj\Desktop\C Code\salary\salary\main.c(15,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\binderj\Desktop\C Code\salary\salary\main.c(19,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  salary.vcxproj -> C:\Users\binderj\Desktop\C Code\salary\x64\Debug\salary.exe
