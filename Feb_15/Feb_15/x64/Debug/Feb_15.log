@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Users\binderj\Desktop\C Code\Feb_15\Feb_15\main.c(24,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\binderj\Desktop\C Code\Feb_15\Feb_15\main.c(32,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\binderj\Desktop\C Code\Feb_15\Feb_15\main.c(48,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\Users\binderj\Desktop\C Code\Feb_15\Feb_15\main.c(48,9): message : consider using '%zd' in the format string
+  Feb_15.vcxproj -> C:\Users\binderj\Desktop\C Code\Feb_15\x64\Debug\Feb_15.exe
