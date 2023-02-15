@@ -22,7 +22,7 @@ void main() {
 	scanf("%hhd", &senior);
 
 	printf("\n   You Entered:\n   %d seniors\n   %d adults\n   %d students\n   %d kids\n   %d toddlers\n\n   Is this correct? (y or n): ", senior, adult, student, kid, toddler);
-	scanf("%s", &x);																							// scanf is a bitch
+	scanf("%s", &x);										// scanf is a bitch
 	
 	if (x == 204) {
 		printf("   Im a lazy coder, your lucky I even asked if YOU entered your data right..\n   Restart the program to try again and dont f*ck up this time idiot.\n\n");
