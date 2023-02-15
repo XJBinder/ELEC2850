@@ -1,0 +1,14 @@
+﻿  main.c
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(7,12): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(7,12): message : consider using '%zd' in the format string
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(8,12): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(8,12): message : consider using '%zd' in the format string
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(9,12): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(9,12): message : consider using '%zd' in the format string
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(10,12): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(10,12): message : consider using '%zd' in the format string
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(11,12): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(11,12): message : consider using '%zd' in the format string
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(17,12): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 2 has type 'size_t'
+C:\Users\binderj\Desktop\C Code\Lect2Question2\Lect2Question2\main.c(17,12): message : consider using '%zd' in the format string
+  Lect2Question2.vcxproj -> C:\Users\binderj\Desktop\C Code\Lect2Question2\x64\Debug\Lect2Question2.exe

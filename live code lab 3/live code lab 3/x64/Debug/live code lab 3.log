@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\binderj\Desktop\C Code\live code lab 3\live code lab 3\main.c(30,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\binderj\Desktop\C Code\live code lab 3\live code lab 3\main.c(35,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  live code lab 3.vcxproj -> C:\Users\binderj\Desktop\C Code\live code lab 3\x64\Debug\live code lab 3.exe

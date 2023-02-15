@@ -1,0 +1,11 @@
+﻿  main.c
+C:\Users\binderj\Desktop\C Code\Jan18\Jan18\main.c(17,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\Users\binderj\Desktop\C Code\Jan18\Jan18\main.c(17,9): message : consider using '%zd' in the format string
+C:\Users\binderj\Desktop\C Code\Jan18\Jan18\main.c(18,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\Users\binderj\Desktop\C Code\Jan18\Jan18\main.c(18,9): message : consider using '%zd' in the format string
+C:\Users\binderj\Desktop\C Code\Jan18\Jan18\main.c(19,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\Users\binderj\Desktop\C Code\Jan18\Jan18\main.c(19,9): message : consider using '%zd' in the format string
+C:\Users\binderj\Desktop\C Code\Jan18\Jan18\main.c(36,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+C:\Users\binderj\Desktop\C Code\Jan18\Jan18\main.c(31,14): warning C4244: 'initializing': conversion from 'double' to 'char', possible loss of data
+C:\Users\binderj\Desktop\C Code\Jan18\Jan18\main.c(35,8): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Jan18.vcxproj -> C:\Users\binderj\Desktop\C Code\Jan18\x64\Debug\Jan18.exe
