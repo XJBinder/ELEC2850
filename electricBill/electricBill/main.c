@@ -7,7 +7,7 @@ void main() {
 	float min = 999999;
 	float cost;
 	float avg;
-	float i = 0;
+	float sum = 0;
 	unsigned char count = 0;
 
 	printf("\n            ----------------------------\n            --Electric Bill Calculator--\n            ----------------------------\n");
@@ -34,13 +34,13 @@ void main() {
 		if (cost < min) {
 			min = cost;
 		}
-		i = i + cost;
+		sum = sum + cost;
 		printf("      Your electric bill is: $%.2f\n", cost);
 		printf("      Enter number of Units used this month: ");
 		scanf("%f", &units);
 		count = count++;
 	}
 
-	avg = i / count;
+	avg = sum / count;
 	printf("      Maximum: $%.2f\n      Minimum: $%.2f\n      Average: $%.2f\n", max, min, avg);
 }
