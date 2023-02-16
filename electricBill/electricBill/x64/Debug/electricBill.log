@@ -1,6 +1,6 @@
 ﻿  main.c
-C:\Users\Jon Binder\source\repos\ELEC2850\electricBill\electricBill\main.c(19,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jon Binder\source\repos\ELEC2850\electricBill\electricBill\main.c(22,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jon Binder\source\repos\ELEC2850\electricBill\electricBill\main.c(25,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Jon Binder\source\repos\ELEC2850\electricBill\electricBill\main.c(28,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jon Binder\source\repos\ELEC2850\electricBill\electricBill\main.c(66,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jon Binder\source\repos\ELEC2850\electricBill\electricBill\main.c(69,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jon Binder\source\repos\ELEC2850\electricBill\electricBill\main.c(72,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Jon Binder\source\repos\ELEC2850\electricBill\electricBill\main.c(75,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   electricBill.vcxproj -> C:\Users\Jon Binder\Source\Repos\ELEC2850\electricBill\x64\Debug\electricBill.exe
