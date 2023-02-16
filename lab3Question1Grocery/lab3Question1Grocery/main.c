@@ -2,10 +2,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+// Function Declaration
 float est_tax(unsigned short base_price);
 float total_price(unsigned short base_price);
 void thank_you();
 
+// Main Loop
 void main() {
 	unsigned short userInput;
 	printf("\n   Enter price: ");
@@ -18,6 +20,7 @@ void main() {
 	thank_you();
 }
 
+// Functions
 float est_tax(unsigned short base_price) {
 	float tax = base_price * .07;
 	return tax;
