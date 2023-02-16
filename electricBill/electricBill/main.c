@@ -8,6 +8,7 @@ float findMax(float cost, float max);
 float findMin(float cost, float min);
 float findAvg(float sum, unsigned char count);
 
+// Main Loop
 void main() {
 	float cost = 0;
 	float max = 0;
@@ -74,6 +75,5 @@ float electricBill(float units) {
 	else if (units > 0) {
 		cost = units * 0.5;
 	}
-
 	return cost;
 }
