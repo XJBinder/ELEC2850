@@ -17,6 +17,11 @@ void main() {
 	printf("\n      Enter number of Units used this month: ");
 	scanf("%f", &units);
 
+	if (units <= 0) {
+		min = 0;
+		count = 1;
+	}
+
 	while (units > 0) {
 		cost = electricBill(units);
 		printf("      Your electric bill is: $%.2f\n", cost);
