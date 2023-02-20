@@ -6,12 +6,12 @@ float shippingFee(unsigned short miles);
 void main() {
 	unsigned short miles;
 
-	printf("   How many miles are you shipping? \n");
+	printf("\n   Please Enter Miles to Ship: ");
 	scanf("%hd", &miles);
 
 	float cost = shippingFee(miles);
 
-	printf("The cost of shipping: %.2f", cost);
+	printf("   The cost of shipping: $%.2f\n", cost);
 }
 
 float shippingFee(unsigned short miles) {
