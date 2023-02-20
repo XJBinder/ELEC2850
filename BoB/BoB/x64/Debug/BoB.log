@@ -1,1 +1,3 @@
-﻿  BoB.vcxproj -> C:\Users\Jon Binder\source\repos\ELEC2850\BoB\x64\Debug\BoB.exe
+﻿  main.c
+C:\Users\binderj\Desktop\C Code\BoB\BoB\main.c(44,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  BoB.vcxproj -> C:\Users\binderj\Desktop\C Code\BoB\x64\Debug\BoB.exe
