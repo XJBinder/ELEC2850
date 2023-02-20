@@ -32,3 +32,4 @@ float total_price(float base_price) {
 void thank_you() {
 	printf("   Thank you, We would like to hear your feedback. Please call the following number 123-456-7890\n");
 }
+
