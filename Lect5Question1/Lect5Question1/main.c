@@ -1,8 +1,9 @@
+// Lecture 5 - Question 1 - Jon Binder
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include "service.h"
 
-float shippingFee(unsigned short miles);
-
+// Main Loop
 void main() {
 	unsigned short miles;
 
@@ -12,19 +13,4 @@ void main() {
 	float cost = shippingFee(miles);
 
 	printf("   The cost of shipping: $%.2f\n", cost);
-}
-
-float shippingFee(unsigned short miles) {
-	float cost;
-
-	if (miles < 2) {
-		cost = 1.5;
-	}
-	else if (miles > 5) {
-		cost = 10 + (0.1 * miles);
-	}
-	else {
-		cost = 3;
-	}
-	return cost;
 }
