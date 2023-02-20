@@ -1,4 +1,4 @@
-// Lecture 5 - Question 1 - Jon Binder
+// Lecture 5 - Questions - Jon Binder
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include "service.h"
