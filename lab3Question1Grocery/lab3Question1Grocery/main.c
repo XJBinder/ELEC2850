@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 // Function Declaration
-float est_tax(unsigned short base_price);
-float total_price(unsigned short base_price);
+float est_tax(float base_price);
+float total_price(float base_price);
 void thank_you();
 
 // Main Loop
@@ -21,7 +21,7 @@ void main() {
 }
 
 // Functions
-float est_tax(unsigned short base_price) {
+float est_tax(float base_price) {
 	float tax = base_price * .07;
 	return tax;
 }
