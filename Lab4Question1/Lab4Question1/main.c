@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+// Lab 4 Question 1 - Jon Binder
 #include <stdio.h>
 #include "minmax.h"
 
