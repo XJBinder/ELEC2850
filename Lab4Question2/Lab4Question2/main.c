@@ -41,6 +41,10 @@ int main(void) {
 		case 4:
 			printf("\n   !-!-!-!-!-!-!-!-!-!-!!\n   !!Entering New Score!!\n   !-!-!-!-!-!-!-!-!-!-!!\n\n   Changing Student #");
 			scanf("%hhd", &studentSelect);
+			if (studentSelect != 0 && studentSelect != 1 && studentSelect != 2 && studentSelect != 3 && studentSelect != 4 && studentSelect != 5 && studentSelect != 6 && studentSelect != 7 && studentSelect != 8 && studentSelect != 9 && studentSelect != 10) {
+				printf("\n   \"%d\" is not a valid student selection.\n\n   Exiting..\n", studentSelect);
+				return 0;
+			}
 			printf("\n   !!!Student #%d Selected!!!\n   Current Grade: %d\n   New Grade: ", studentSelect, quizScores[studentSelect - 1]);
 			quizScores[studentSelect - 1] = gradeChange(studentSelect, quizScores);
 			select = 0;
