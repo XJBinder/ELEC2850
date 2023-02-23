@@ -19,7 +19,7 @@ int main(void) {
 		printArray(transactions);
 		printf("\n   Which element would you like to change? (Enter: 1-10) \n");
 		scanf("%hhd", &indexSele);
-		if (indexSele != 1 && indexSele != 2 && indexSele != 3 && indexSele != 4 && indexSele != 5 && indexSele != 6 && indexSele != 7 && indexSele != 8 && indexSele != 9 && indexSele != 10) {
+		if (indexSele > 10 || indexSele < 1) {
 			printf("   Not a valid selection\n");
 			return 0;
 		}
