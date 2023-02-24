@@ -34,6 +34,5 @@ void main() {
 		count = count++;
 	}
 
-	float avg = findAvg(sum, count);
-	printf("      Maximum: $%.2f\n      Minimum: $%.2f\n      Average: $%.2f\n", max, min, avg);
+	printf("      Maximum: $%.2f\n      Minimum: $%.2f\n      Average: $%.2f\n", max, min, findAvg(sum, count));
 }
