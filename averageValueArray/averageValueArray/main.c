@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <limits.h>
 
+// this is a test to see if vscode works to commit and interact with github!
 void main() {
 	unsigned char array[10] = { 55, 64, 89, 71, 90, 92, 47, 62, 85, 81 };
 	unsigned char min = INT_MAX;
