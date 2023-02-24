@@ -5,7 +5,7 @@
 
 void main() {
 	unsigned char array[10] = { 55, 64, 89, 71, 90, 92, 47, 62, 85, 81 };
-	unsigned char min = INT_MAX;
+	unsigned char min = CHAR_MAX;
 	unsigned char max = 0;
 	unsigned short sum = 0;
 	float avg;
